@@ -1,0 +1,7 @@
+# 檔案名稱 .gitignore
+
+# 忽略 token.json 檔案
+token.json
+auth.json
+bot1/node_modules
+bot2/node_modules
