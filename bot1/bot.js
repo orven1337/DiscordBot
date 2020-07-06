@@ -10,10 +10,9 @@ client.on('message', msg => {
   if(msg.author.bot){
       return null;
   }
-  if (msg.content === 'ping') {
-    msg.reply('pong');
+  if (msg.content === "老婆") {
+    msg.reply("我不是你老婆");
   }
-  msg.channel.send('ping');
 });
 
 client.login(auth.token);
